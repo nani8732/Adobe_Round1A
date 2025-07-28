@@ -1,0 +1,260 @@
+{
+  "title": "Untitled Document",
+  "outline": [
+    {
+      "level": "H2",
+      "text": "Aditi",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Software Developer",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Education",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "BTech Birla Institute of Technology , Mesra , Computer Science",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "•  RelevantCoursework:  DataStructuresandAlgorithm,ObjectOrientedProgramming,Databases,",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Operating System",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "2023 – 2027",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Projects",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "DripTrack - Wardrobe Manager",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Live Project  2",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Built a  full-stack MERN app , serving over  500 active users , to organize wardrobes with features for uploading, categorizing, and track-",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "ing clothing usage.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Implemented  JWT-based user authentication , ensuring secure data access and user privacy.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Integrated  Cloudinary  for efficient image uploads and optimized storage.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Designed a responsive UI using  Tailwind CSS  for seamless cross-device usability.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Addedinteractivestatisticsusing Chart.js tovisualizeclothingusagepatternsandintegrateda AI-poweredchatbot fromGoogleCloud",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Platform to provide fashion advice and answer user queries about styling and wardrobe choices.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "TandooriBot - AI-powered Recipe Customizer",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Live Project  2",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Designed and developed a dynamic platform to generate personalized recipes based on dietary preferences, available ingredients, and",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "desired cuisines.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Incorporated  Gemini Generative Language API  for customization, ensuring accurate and user-specific outputs.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Implemented  markdown rendering support  for clear, formatted recipe instructions.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Tools: React.js, Node.js, Vite, Tailwind CSS,  Google Cloud Platform .",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "GupShup - Real-time Chat application(Ongoing Project)",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Github  2",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Building a secure chat app with  real-time messaging , typing indicators, and group chat features.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Leveraging  Socket.io  for 100% live communication and MongoDB for encrypted data storage.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Tools:  MERN Stack , Socket.io, Chakra UI, Tailwind CSS.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Portfolio -",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "•  Google themed portfolio:  Simulated Google Search using HTML, CSS, and React.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Live project  2",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "•  Retro Gaming themed portfolio  Designed a retro gaming-styled personal portfolio.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Live project  2",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Achievements and Certifications",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Solved 250+ Data Structures and Algorithms (DSA) problems on LeetCode.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Leetcode  2",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "JavaScript Essentials by Cisco Networking Academy",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Certificate  2",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Skills",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Languages:  Java , JavaScript , C",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Full Stack Development:  : HTML, CSS, Bootstrap, Tailwind CSS, React, Node.js, Express.js, MongoDB, SQL",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Tools:  Git, GitHub, Postman",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Other Skills:  Data Structures and Algorithms(DSA), Object Oriented Programming and Design Patterns, Databases, Operating System",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Extra-Curricular Activities",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Volunteer @ National Service Scheme",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "2023 – present",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Tutored  50+ students  in Ratanpur Village, Jharkhand, bridging the learning gap through educational initiatives.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Media Lead @ Aakshar (Literary Society of BIT Mesra)",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "2024 – present",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "• Directed content creation strategies and  Hosted college fests  and literary events, captivating  audiences of 500+ .",
+      "page": 1
+    }
+  ]
+}

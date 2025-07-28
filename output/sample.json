@@ -1,1 +1,6970 @@
-
+{
+  "title": "Untitled Document",
+  "outline": [
+    {
+      "level": "H2",
+      "text": "GPCET & RECW UNIT – II Q&A",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "1.Explain the difference between public, private, protected, and default access in Java with an",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "example.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "ANS:",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "1.   public (Most Accessible)",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "A member declared as public is accessible  from anywhere  in the program.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "It can be accessed from  within the same class, same package, different",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "packages, and subclasses .",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "2.   private (Most Restrictive)",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "A member declared as private is  accessible only within the same class .",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "It  cannot  be accessed from other classes, even within the same package.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Useful for  encapsulation  to hide internal implementation details",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "3.   protected (Limited Accessibility)",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "The member is accessible  within the same package  and  in subclasses outside the",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "package (only through inheritance) .",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Not accessible in unrelated classes in a different package.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Used to allow access in  subclasses while still restricting outside access .",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "4.   default (Package-Private Access)",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "If no access modifier is specified, the member has  default (package-private) access .",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "The member is  accessible only within the same package  and not outside the",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "package, even if inherited.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Access",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Modifier",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Same",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Class",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Same",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Package",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Subclass (Different Package)  Other Classes (Different",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Package)",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "public",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "✅  Yes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "✅  Yes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "✅  Yes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "✅  Yes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "protected",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "✅  Yes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "✅  Yes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "✅  Yes (only through",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "inheritance)",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "❌  No",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "default",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "✅  Yes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "✅  Yes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "❌  No",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "❌  No",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "private",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "✅  Yes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "❌  No",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "❌  No",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "❌  No",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "2. Write a Java program to create a class Car with attributes like brand, model, and price. Create",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "objects and display their details.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "ANS:       A  class  in Java is a  blueprint  for creating objects. It defines the  attributes (variables)  and",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "methods (functions)  that an object will have.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "An  object  is an instance of a class. It has its own  state (attribute values)  and  behavior (methods) .",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "// Car.java",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "class Car {",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "// Attributes",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "String brand;",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "String model;",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "double price;",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Car(String brand, String model, double price) {",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "this.brand = brand;",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "this.model = model;",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "this.price = price;",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "// Method to display car details",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "void displayDetails() {",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Brand: \" + brand);",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Model: \" + model);",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Price: $\" + price);",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"--------------------------\");",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "// Main class to test Car objects",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "public class CarDemo {",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "// Creating car objects",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Car car1 = new Car(\"Toyota\", \"Camry\", 30000);",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Car car2 = new Car(\"Honda\", \"Civic\", 25000);",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Car car3 = new Car(\"BMW\", \"X5\", 60000);",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "// Displaying details of cars",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Car Details:\");",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"--------------------------\");",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "car1.displayDetails();",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "car2.displayDetails();",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "car3.displayDetails();",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "3. What is the difference between static members and instance members in a class? Give an",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "example.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "ANS:    In Java,  class members  (variables and methods) can be classified into  static members  and",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "instance members  based on how they are associated with the class and objects.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "1. Static Members",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Belong to the class  rather than individual objects.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Declared using the static keyword .",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Shared among all objects  of the class.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Can be accessed using the  class name  (e.g., ClassName.member).",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Memory is allocated only once  at the time of class loading.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Cannot access  non-static (instance) members  directly.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "2. Instance Members",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Belong to an individual object .",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Created every time a new object is instantiated .",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Can be accessed using an  object reference  (objectName.member).",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Each object  gets its own copy  of instance variables.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Can access  both instance and static members .",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Key Differences:",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Feature",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Static Members (static)",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Instance Members",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Belongs To",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Class (shared by all objects)",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Individual objects",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Memory Allocation",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Once, at class loading",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Each time an object is created",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Accessed By",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "ClassName.member",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "objectName.member",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Can Access",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Other static members only",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Both static and instance members",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Example",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "static int totalCars;",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "String brand;",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "class Car {",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "// Static member (shared by all objects)",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "static int totalCars = 0;",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "// Instance members (unique for each object)",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "String brand;",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "String model;",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Car(String brand, String model) {",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "this.brand = brand;",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "this.model = model;",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "totalCars++; // Increment static member",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "// Instance method (can access both static and instance members)",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "void displayCarDetails() {",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Brand: \" + brand + \", Model: \" + model);",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "// Static method (can only access static members)",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "static void displayTotalCars() {",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Total Cars: \" + totalCars);",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "// Main class",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "public class StaticVsInstanceDemo {",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "// Creating objects",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Car car1 = new Car(\"Toyota\", \"Camry\");",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Car car2 = new Car(\"Honda\", \"Civic\");",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "// Accessing instance members",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "car1.displayCarDetails();",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "car2.displayCarDetails();",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "// Accessing static member using class name",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Car.displayTotalCars(); // Static method called using class name",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "4. Write a Java program to demonstrate  pass-by-reference  and  pass-by-value  using objects .",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "ANS:   In Java, method arguments are always passed  by value . This means that a copy of the actual",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "parameter is passed to the method, and any modifications inside the method do not affect the original",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "value in the caller.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "However, Java handles objects differently, creating an illusion of  pass-by-reference  because references",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "to objects are passed  by value . This distinction is crucial to understanding how Java handles method",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "parameters.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Passing Primitive Data Types (Pass by Value)",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "In Java, when a primitive data type (e.g., int, double, char, boolean) is passed to a method, a  copy  of",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "the value is sent. The original variable remains unchanged.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Package  RECWCSEEF",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "public class  Demo  {",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "public static void modify(int a, int b) {",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "a = 1;",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "b = 2;",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "System. out .println(\"this values in side method : \"+a+\" \"+b);",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "int a = 10;",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "int b = 20;",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "System. out .println(\"Before method call: \"+a+\" \"+b);",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "modify (a, b);",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "System. out .println(\"After method call: \" +a+\" \"+b);",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Output:",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Before method call: 10 20",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "this values in side method : 1 2",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "After method call: 10 20",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Pass by Reference (Objects)",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "In Java, objects are passed by value, but the value is a reference (memory address).",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "This means changes inside the method affect the original object.",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Package RECWCSEEF",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "public class Box {",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "int length;",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Box(int length){",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "this.length = length;",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "public void modify(Box obj) {",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "obj.length += 10;",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Box bx = new Box(1);",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(bx.length);",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "bx.modify(bx);",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(bx.length);",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "6. Write a Java program to demonstrate method overloading.",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "ANS:",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Method Overloading in Java allows a class to have  multiple methods with the same name  but",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "different  parameter lists  (different number of parameters, data types, or both).",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Rules for Method Overloading",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "1.   Same Method Name : The overloaded methods must have the  same name .",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "2.   Different Parameters : Methods must differ in the  number  or  type  of parameters.",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "3.   Return Type Doesn't Matter : Changing only the return type  does not  differentiate",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "overloaded methods.",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "4.   Methods in the Same Class : All overloaded methods must be defined in the  same class .",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "class Calculator {",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "// Method 1: Adding two integers",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "int add(int a, int b) {",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "return a + b;",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "// Method 2: Adding three integers (Overloaded method)",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "int add(int a, int b, int c) {",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "return a + b + c;",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "// Method 3: Adding two double values (Overloaded method)",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "double add(double a, double b) {",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "return a + b;",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "// Method 4: Concatenating two strings (Overloaded method)",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "String add(String a, String b) {",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "return a + b;",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "// Main class to test method overloading",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "public class MethodOverloadingExample {",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Calculator calc = new Calculator();",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "// Calling overloaded methods",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Sum of 5 and 10: \" + calc.add(5, 10));                  // Calls add(int, int)",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Sum of 5, 10, and 15: \" + calc.add(5, 10, 15));         // Calls add(int, int, int)",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Sum of 4.5 and 2.5: \" + calc.add(4.5, 2.5));            // Calls add(double, double)",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Concatenation of 'Hello' and 'World': \" + calc.add(\"Hello\", \" World\")); // Calls",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "add(String, String)",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "7.Explain the difference between static methods and instance methods in Java with examples.",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Difference Between Static Methods and Instance Methods in Java",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "In Java, methods can be categorized into  static methods  and  instance methods , depending on",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "whether they belong to the class itself or an instance of the class. Below are the key differences:",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Feature",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Static Method",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Instance Method",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Belongs To",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Class",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Object (Instance of Class)",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Accessing",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Members",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Can only access static variables and",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "static methods",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Can access both static and non-static",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "variables and methods",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Invocation",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Called using the class name",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "(ClassName.methodName()) or an",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "instance",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Called using an instance of the class",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "(objectName.methodName())",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Memory",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Allocation",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Allocated in the  Method Area  at class",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "loading time",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Allocated in  Heap Memory  for each",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "instance",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Feature",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Static Method",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Instance Method",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Use Case",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Utility methods (e.g., Math.pow(),",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Collections.sort())",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Methods that operate on instance",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "variables (e.g., getName(), setAge())",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Polymorphism",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "(Overriding)",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Cannot be overridden (but can be",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "hidden using method hiding)",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Can be overridden in subclasses",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Keyword Used",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "static keyword is required",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "No special keyword needed",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Example Demonstration",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "class Example {",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "int instanceVar = 10;  // Instance variable",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "static int staticVar = 20;  // Static variable",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "// Static Method",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "static void staticMethod() {",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Inside Static Method\");",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Static Variable: \" + staticVar); // Allowed",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "// System.out.println(\"Instance Variable: \" + instanceVar); // ERROR! Cannot access instance",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "variables",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "// Instance Method",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "void instanceMethod() {",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Inside Instance Method\");",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Instance Variable: \" + instanceVar); // Allowed",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Static Variable: \" + staticVar); // Allowed",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "public class StaticVsInstance {",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "// Calling Static Method",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Example.staticMethod(); // Called using class name",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "// Calling Instance Method",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Example obj = new Example(); // Creating an object",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "obj.instanceMethod(); // Called using object",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Output",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Inside Static Method",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Static Variable: 20",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Inside Instance Method",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Instance Variable: 10",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Static Variable: 20",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Key Takeaways",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "1.   Static methods  belong to the  class  and cannot access instance variables or methods directly.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "2.   Instance methods  belong to an  object  and can access both instance and static members.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "3.   Static methods  are useful for utility operations (e.g., Math.sqrt(), Arrays.sort()).",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "4.   Instance methods  are used when we need object-specific behavior (e.g., setting or retrieving",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "instance values).",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "5.   Overriding is possible only for instance methods , while static methods support  method",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "hiding .",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "6.   Memory Allocation :",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Static methods:  Method Area (class-level)",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Instance methods:  Heap Memory (object-level)",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "7.   Accessing Methods :",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Static: ClassName.methodName()",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Instance: objectName.methodName()",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "8.Write a program where method overloading is used to calculate the area of different shapes (circle,",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "rectangle, and triangle).",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "demonstrating  method overloading  to calculate the area of different shapes:  circle, rectangle, and",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "triangle .",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "Program: Method Overloading for Calculating Area",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "class AreaCalculator {",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "// Method to calculate the area of a circle",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "static double calculateArea(double radius) {",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "return Math.PI * radius * radius;",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "// Method to calculate the area of a rectangle",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "static double calculateArea(double length, double width) {",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "return length * width;",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "// Method to calculate the area of a triangle",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "static double calculateArea(double base, double height, boolean isTriangle) {",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "return 0.5 * base * height;",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "// Calculating area of different shapes",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "double circleArea = calculateArea(7.0);",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "double rectangleArea = calculateArea(5.0, 10.0);",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "double triangleArea = calculateArea(6.0, 8.0, true);",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "// Displaying results",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Area of Circle: \" + circleArea);",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Area of Rectangle: \" + rectangleArea);",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Area of Triangle: \" + triangleArea);",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Explanation:",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "1.   Method Overloading:",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "The calculateArea() method is overloaded three times with different parameter lists.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Circle : Takes one parameter (radius) and returns π * r².",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Rectangle : Takes two parameters (length, width) and returns length * width.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Triangle : Takes three parameters (base, height, and a boolean flag) and returns 0.5 *",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "base * height.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "2.   Calling Methods:",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "The appropriate method is called based on the number and type of arguments.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Area of Circle: 153.93804002589985",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Area of Rectangle: 50.0",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Area of Triangle: 24.0",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "9. Java Program for Method Overloading in Calculator",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "This program demonstrates  method overloading  in a Calculator class, which performs  addition  for",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "different data types and numbers.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "class Calculator {",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "// Method to add two integers",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "int add(int a, int b) {",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "return a + b;",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "// Method to add two floating-point numbers",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "double add(double a, double b) {",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "return a + b;",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "// Method to add three integers",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "int add(int a, int b, int c) {",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "return a + b + c;",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Calculator calc = new Calculator();",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "// Calling overloaded methods",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Addition of two integers: \" + calc.add(5, 10));",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Addition of two floating numbers: \" + calc.add(4.5, 3.2));",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Addition of three integers: \" + calc.add(2, 3, 4));",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Addition of two integers: 15",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Addition of two floating numbers: 7.7",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Addition of three integers: 9",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "This example illustrates  method overloading , where methods with the same name but different",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "parameters perform different operations.",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "10. What is a Method in Java? Explain with an Example.",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "A  method  in Java is a block of code that performs a specific task. It helps in  code reuse  and makes",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "programs  modular .",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Example of a Method in Java",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "class Example {",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "// Method to display a message",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "void displayMessage() {",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Hello, this is a method in Java!\");",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Example obj = new Example();",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "obj.displayMessage();  // Calling the method",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Hello, this is a method in Java!",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Key Points:",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Methods define  reusable behavior .",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "They improve  code organization and readability .",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "A method  must be called  to execute.",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "11. Two Advantages of Using Methods in Java",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "1.   Code Reusability",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Methods allow us to  reuse  the same block of code without rewriting it.",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Example: The Math.pow(x, y) method can be used multiple times instead of writing",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "power logic repeatedly.",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "2.   Modular and Readable Code",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Methods break the program into  smaller units , making it easier to debug and",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "understand.",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Large programs become  structured and manageable .",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "12. What is a Constructor in Java? How Does it Differ from a Method?",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "A  constructor  is a special method used to initialize objects in Java. It is  invoked automatically  when",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "an object is created.",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Example of a Constructor",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "class Student {",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "String name;",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Student(String studentName) {",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "name = studentName;",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Student Name: \" + name);",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Student s1 = new Student(\"John\");  // Constructor is called",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "s1.display();",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Student Name: John",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Differences Between a Constructor and a Method",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Feature",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Constructor",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Method",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Purpose",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Initializes an object",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Defines behavior (operations)",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Invocation  Called automatically when an object is created Must be called explicitly",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Return Type  No return type (not even void)",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Can return a value",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Name",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Must match the class name",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Can have any valid name",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "13. Why Do We Need Constructors in Java?",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "In Java, a  constructor  is a special method used to  initialize objects  when they are created. Unlike",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "regular methods, a constructor is  automatically called  when an instance of a class is created. The",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "primary purpose of a constructor is to  set initial values  for instance variables.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Need for Constructors in Java",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1.   Automatic Initialization",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Without a constructor, instance variables must be assigned manually after creating",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "an object.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "A constructor ensures that necessary initialization happens when the object is",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "created.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "2.   Encapsulation and Code Reusability",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Encapsulates object initialization logic in one place.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Avoids repetitive code by setting default values.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "3.   Improves Code Readability and Maintainability",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Instead of calling multiple setter methods, constructors allow initialization in a  single",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "step .",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "4.   Prevents Uninitialized Objects",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Ensures that an object has a valid state immediately after creation.",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Types of Constructors in Java",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Java supports  three types of constructors :",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "1. Default Constructor (No-Argument Constructor)",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "A constructor that  does not take any parameters .",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "If no constructor is defined, Java  automatically provides  a default constructor.",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "It initializes instance variables with  default values  (0, null, false).",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Example of a Default Constructor",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "class Student {",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "String name;",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "int age;",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "// Default Constructor",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Student() {",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "name = \"Unknown\";",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "age = 18;",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Name: \" + name + \", Age: \" + age);",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Student s1 = new Student(); // Default constructor is called",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "s1.display();",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Name: Unknown, Age: 18",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "2. Parameterized Constructor",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "A constructor that  accepts arguments  to initialize object attributes with specific values.",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Provides flexibility for initializing objects with different values.",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Example of a Parameterized Constructor",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "class Student {",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "String name;",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "int age;",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "// Parameterized Constructor",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Student(String studentName, int studentAge) {",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "name = studentName;",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "age = studentAge;",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Name: \" + name + \", Age: \" + age);",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Student s1 = new Student(\"Alice\", 20); // Constructor with parameters",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "s1.display();",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Name: Alice, Age: 20",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "3. Copy Constructor",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "A constructor that  copies values from another object .",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Used when a  duplicate object  is needed with the same values.",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Example of a Copy Constructor",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "class Student {",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "String name;",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "int age;",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "// Parameterized Constructor",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Student(String studentName, int studentAge) {",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "name = studentName;",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "age = studentAge;",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "// Copy Constructor",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Student(Student s) {",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "name = s.name;",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "age = s.age;",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Name: \" + name + \", Age: \" + age);",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Student s1 = new Student(\"Bob\", 21); // Original object",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Student s2 = new Student(s1);        // Copy constructor is used",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "s2.display();",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Name: Bob, Age: 21",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Key Takeaways",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "1.   Default Constructor:  Assigns default values.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "2.   Parameterized Constructor:  Allows custom initialization.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "3.   Copy Constructor:  Creates a duplicate object.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "14. Can a Constructor Call Another Constructor of the Same Class?",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Yes, a constructor  can call another constructor  of the same class using the this() keyword. This is",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "known as  constructor chaining , which helps in avoiding code duplication and improves readability.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Constructor Chaining in Java",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "The this() call must be the  first statement  in the constructor.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "It  reduces redundancy  and ensures all constructors  reuse common initialization logic .",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Example of Constructor Chaining",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "class Employee {",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "String name;",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "int age;",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "String department;",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor 1: Default Constructor",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Employee() {",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "this(\"Unknown\", 0, \"Not Assigned\"); // Calls Constructor 3",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor 2: Constructor with two parameters",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Employee(String name, int age) {",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "this(name, age, \"General\"); // Calls Constructor 3",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor 3: Constructor with all three parameters",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Employee(String name, int age, String department) {",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "this.name = name;",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "this.age = age;",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "this.department = department;",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Name: \" + name + \", Age: \" + age + \", Department: \" + department);",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Employee e1 = new Employee(); // Calls default constructor",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Employee e2 = new Employee(\"John\", 25); // Calls constructor with two parameters",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Employee e3 = new Employee(\"Alice\", 30, \"HR\"); // Calls full constructor",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "e1.display();",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "e2.display();",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "e3.display();",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Name: Unknown, Age: 0, Department: Not Assigned",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Name: John, Age: 25, Department: General",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Name: Alice, Age: 30, Department: HR",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Key Points About Constructor Chaining",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "1.   Uses this() to call another constructor  within the same class.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "2.   Avoids code duplication  and ensures all constructors use the same initialization logic.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "3.   The this() call must be the first statement  inside a constructor.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Conclusion",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Constructors  ensure proper initialization of objects.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Types of Constructors : Default, Parameterized, and Copy Constructors.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Constructor Chaining : Helps in better code reuse and avoids redundancy.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "15. Role of super() in Constructors in Java",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Introduction to super()",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "In Java, super() is a special keyword used inside a constructor to  call the constructor of its immediate",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "parent class . It is primarily used for  constructor chaining in inheritance  and helps in  reusing the",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "initialization logic  of the parent class.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Why is super() Used in Java?",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "1.   To call the parent class constructor explicitly  from a subclass.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "2.   To reuse parent class properties  and avoid duplicate initialization.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "3.   To ensure proper initialization  when dealing with inheritance.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Example of super() in a Constructor",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "// Parent class",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "class Person {",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "String name;",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "int age;",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor of Parent class",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Person(String name, int age) {",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "this.name = name;",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "this.age = age;",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Person Constructor Called\");",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "// Child class",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "class Student extends Person {",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "int studentID;",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor of Child class using super()",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Student(String name, int age, int studentID) {",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "super(name, age); // Calls the constructor of Person class",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "this.studentID = studentID;",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Student Constructor Called\");",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Name: \" + name + \", Age: \" + age + \", Student ID: \" + studentID);",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Student s1 = new Student(\"John\", 20, 101);",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "s1.display();",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Person Constructor Called",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Student Constructor Called",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Name: John, Age: 20, Student ID: 101",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Explanation of super()",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "1.   When a  Student object  is created, the Student constructor is called.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "2.   Inside the Student constructor, super(name, age); is used to  call the constructor of the",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "parent class (Person) .",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "3.   The  Person constructor executes first , setting name and age.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "4.   Then, the  Student constructor continues execution , setting studentID.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Key Points About super()",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Must be the first statement  inside a constructor.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "If super() is not written explicitly , Java calls the  default constructor  of the parent class",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "automatically.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Ensures that superclass attributes are initialized before subclass attributes .",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "16. Java Program for Constructor Overloading in Student Class",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Constructor overloading allows a class to  have multiple constructors  with different parameters,",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "enabling  flexible object creation .",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Java Program: Student Class with Constructor Overloading",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "class Student {",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "int studentID;",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "String name;",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "double marks;",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "// Default Constructor",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Student() {",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "this.studentID = 0;",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "this.name = \"Unknown\";",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "this.marks = 0.0;",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Default Constructor Called\");",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor with Student ID and Name",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Student(int studentID, String name) {",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "this.studentID = studentID;",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "this.name = name;",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "this.marks = 0.0; // Default marks",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Constructor with ID & Name Called\");",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor with Student ID, Name, and Marks",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Student(int studentID, String name, double marks) {",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "this.studentID = studentID;",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "this.name = name;",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "this.marks = marks;",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Constructor with ID, Name & Marks Called\");",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Student ID: \" + studentID + \", Name: \" + name + \", Marks: \" + marks);",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "// Creating objects using different constructors",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Student s1 = new Student(); // Calls Default Constructor",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Student s2 = new Student(101, \"Alice\"); // Calls Constructor with ID & Name",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Student s3 = new Student(102, \"Bob\", 85.5); // Calls Constructor with ID, Name & Marks",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "// Displaying student details",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "s1.display();",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "s2.display();",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "s3.display();",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Default Constructor Called",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Constructor with ID & Name Called",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Constructor with ID, Name & Marks Called",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Student ID: 0, Name: Unknown, Marks: 0.0",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Student ID: 101, Name: Alice, Marks: 0.0",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Student ID: 102, Name: Bob, Marks: 85.5",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Explanation of Constructor Overloading",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "1.   Default Constructor (Student())",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Initializes  default values  (0, \"Unknown\", 0.0).",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Used when no parameters are provided.",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "2.   Parameterized Constructor (Student(int, String))",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Initializes  Student ID and Name .",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Marks are set to 0.0 by default.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "3.   Fully Parameterized Constructor (Student(int, String, double))",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Initializes  all attributes (Student ID, Name, and Marks) .",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Advantages of Constructor Overloading",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Improves code flexibility  by allowing different ways to initialize an object.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Reduces redundant code , as each constructor calls the appropriate initialization.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Enhances readability and maintainability .",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Key Takeaways",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "super() in Constructors",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Used to  call the constructor of the parent class .",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Helps in  reusing initialization logic  in inheritance.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Must be the  first statement  in a constructor.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Constructor Overloading",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Allows multiple constructors with  different parameter lists .",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Enables  flexible object creation .",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Improves  code reusability and clarity .",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "17. Write a Java Program Demonstrating super() in a Constructor",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "In Java, when a child class extends a parent class, the child class can use super() to call the",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "constructor of the parent class . This ensures that the  parent class is properly initialized before the",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "child class  executes its constructor logic.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Example Program",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "// Parent class",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "class Person {",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "String name;",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "int age;",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor of Parent class",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Person(String name, int age) {",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "this.name = name;",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "this.age = age;",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Person Constructor Called\");",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Name: \" + name + \", Age: \" + age);",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "// Child class",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "class Student extends Person {",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "int studentID;",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor of Child class using super()",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Student(String name, int age, int studentID) {",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "super(name, age); // Calls the constructor of Person class",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "this.studentID = studentID;",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Student Constructor Called\");",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "super.display(); // Calls the display method of Person class",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Student ID: \" + studentID);",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Student s1 = new Student(\"Alice\", 20, 101); // Object creation",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "s1.display();",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Person Constructor Called",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Student Constructor Called",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Name: Alice, Age: 20",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Student ID: 101",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Explanation",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "1.   The Student constructor is called  when an object is created.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "2.   Inside the Student constructor, super(name, age); is used  to call the Person constructor.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "3.   The  Person constructor initializes the name and age variables  and prints \"Person",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Constructor Called\".",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "4.   After the parent class is initialized, the  child class sets studentID  and prints \"Student",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Constructor Called\".",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "5.   The  display() method  in Student calls the parent class display() using super.display() before",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "printing studentID.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "18. Explain Constructor Overloading Example in a Person Class",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Constructor overloading allows a class to  have multiple constructors  with different parameters. It",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "improves  code flexibility  by enabling object creation in different ways.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Example Program",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "class Person {",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "String name;",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "int age;",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "String address;",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor 1: Name only",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Person(String name) {",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "this.name = name;",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "this.age = 0; // Default age",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "this.address = \"Not Provided\"; // Default address",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Constructor with Name Called\");",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor 2: Name and Age",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Person(String name, int age) {",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "this.name = name;",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "this.age = age;",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "this.address = \"Not Provided\"; // Default address",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Constructor with Name and Age Called\");",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "// Constructor 3: Name and Address",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Person(String name, String address) {",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "this.name = name;",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "this.age = 0; // Default age",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "this.address = address;",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Constructor with Name and Address Called\");",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Name: \" + name + \", Age: \" + age + \", Address: \" + address);",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "// Creating objects using different constructors",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Person p1 = new Person(\"John\");",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Person p2 = new Person(\"Alice\", 25);",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Person p3 = new Person(\"Bob\", \"New York\");",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "// Displaying details",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "p1.display();",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "p2.display();",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "p3.display();",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Constructor with Name Called",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Constructor with Name and Age Called",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Constructor with Name and Address Called",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Name: John, Age: 0, Address: Not Provided",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Name: Alice, Age: 25, Address: Not Provided",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Name: Bob, Age: 0, Address: New York",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Explanation",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "1.   Three constructors  are defined for different ways of initializing a Person object.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "2.   The constructor  overloaded with different parameter lists  allows object creation with:",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Only name",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Name and age",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Name and address",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "3.   When objects are created, the  appropriate constructor is called , and  default values are",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "assigned  where needed.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "19. List and explain different Types of Nested Classes in Java",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "A  nested class  is a class defined inside another class. It is used to  group logically related classes",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "together , improve encapsulation, and make code more readable.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Types of Nested Classes",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Java provides two main types of nested classes:",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "1. Static Nested Class",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Declared using the static keyword.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Does not have access to instance variables and methods  of the outer class.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Can be instantiated  without creating an instance of the outer class .",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Example: Static Nested Class",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "class OuterClass {",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "static class StaticNested {",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Inside Static Nested Class\");",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "OuterClass.StaticNested obj = new OuterClass.StaticNested();",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "obj.display();",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Inside Static Nested Class",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "2. Non-Static (Inner) Class",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Has access to all members  (including private members) of the outer class.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Requires an instance of the outer class to be instantiated.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Example: Non-Static Inner Class",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "class OuterClass {",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "private String message = \"Hello from Outer Class\";",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "class InnerClass {",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(message); // Accessing outer class private variable",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "OuterClass outer = new OuterClass();",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "OuterClass.InnerClass inner = outer.new InnerClass();",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "inner.display();",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Hello from Outer Class",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "3. Local Inner Class",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Defined  inside a method .",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Cannot have access modifiers  (like public, private, protected).",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Can access local variables  of the method  if they are final or effectively final .",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Example: Local Inner Class",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "class OuterClass {",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "void outerMethod() {",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "class LocalInner {",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Inside Local Inner Class\");",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "LocalInner obj = new LocalInner();",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "obj.display();",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "OuterClass outer = new OuterClass();",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "outer.outerMethod();",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Inside Local Inner Class",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "4. Anonymous Inner Class",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Does not have a name .",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Used when a class needs to be instantiated only once .",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Created by extending a class or implementing an interface .",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Example: Anonymous Inner Class",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "abstract class Animal {",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "abstract void makeSound();",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "public class Main {",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "// Anonymous Inner Class implementing makeSound() method",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Animal dog = new Animal() {",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "void makeSound() {",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Woof! Woof!\");",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "};",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "dog.makeSound();",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Woof! Woof!",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Summary",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Nested Class Type",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Characteristics",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Static Nested Class",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Independent of the outer class, can be accessed without an instance of the",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "outer class.",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Non-Static Inner",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Class",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Needs an instance of the outer class, has access to all members of the outer",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "class.",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Local Inner Class",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Defined inside a method, can access local variables if they are final or",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "effectively final.",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Anonymous Inner",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Class",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "No name, instantiated once, used for overriding methods of an abstract class",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "or interface.",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "20. Can a nested class access private members of its enclosing class? Explain with an example.",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Yes, a  nested class  can access the  private members  of its enclosing (outer) class. This is possible",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "because a nested class is considered a part of the enclosing class, allowing it to access even  private",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "variables and methods  of the outer class.",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Example: Nested Class Accessing Private Members",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "class Outer {",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "private String message = \"Hello from Outer Class\"; // Private member",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "// Nested Inner Class",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "class Inner {",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "// Accessing private member of Outer class",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Message from Outer: \" + message);",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Outer outer = new Outer();",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Outer.Inner inner = outer.new Inner(); // Creating an instance of Inner class",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "inner.display(); // Calling method of Inner class",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Message from Outer: Hello from Outer Class",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Why Can a Nested Class Access Private Members?",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Nested classes  are part of the same  scope  as the outer class.",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "The Java compiler allows them to access  private fields and methods  of the outer class as if",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "they were part of it.",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Types of Nested Classes That Can Access Private Members",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "1.   Member Inner Class  (as shown above)",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "2.   Static Nested Class  (via an outer class instance)",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "3.   Local Inner Class  (declared inside a method)",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "4.   Anonymous Inner Class  (declared inline)",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Example: Static Nested Class Accessing Private Members",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Even a  static nested class  can access private members, but only through an  instance of the outer",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "class .",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "class Outer {",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "private String message = \"Hello from Outer Class\";",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "// Static Nested Class",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "static class StaticNested {",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Outer outer = new Outer(); // Creating an instance of Outer class",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Message: \" + outer.message);",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Outer.StaticNested nested = new Outer.StaticNested();",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "nested.display();",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Message: Hello from Outer Class",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "21. What is the difference between a Local Inner Class and an Anonymous Inner Class?",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Local Inner Class",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "A  named  inner class declared inside a method.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Can  extend a class or implement an interface .",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Can  have multiple methods .",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Requires  explicit instantiation  within the method.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Anonymous Inner Class",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "A  class without a name , declared and instantiated in a single step.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Always extends a class or implements an interface .",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Cannot define multiple methods explicitly  (only method overrides are allowed).",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "No explicit constructor  because it has no name.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Example for Local Inner Class",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "class Outer {",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "void outerMethod() {",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "class LocalInner {",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Inside Local Inner Class\");",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "LocalInner obj = new LocalInner();",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "obj.display();",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Outer outer = new Outer();",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "outer.outerMethod();",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Example for Anonymous Inner Class",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "interface Greeting {",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "void sayHello();",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "public class Main {",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Greeting obj = new Greeting() {",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "public void sayHello() {",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Hello from Anonymous Inner Class\");",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "};",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "obj.sayHello();",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "22. Write a Java program to demonstrate a Member Inner Class and access its methods.",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "A  member inner class  is a  non-static inner class  that is defined inside another class but outside any",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "method.",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Example Program",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "class OuterClass {",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "private String message = \"Hello from Outer Class\";",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "// Member Inner Class",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "class InnerClass {",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(message); // Accessing outer class private member",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "OuterClass outer = new OuterClass();",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "OuterClass.InnerClass inner = outer.new InnerClass();",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "inner.display();",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Hello from Outer Class",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "23. Explain the advantages and disadvantages of using nested classes in Java.",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Advantages:",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "1.   Encapsulation:  Helps in  hiding implementation details  from the outer world.",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "2.   Logical Grouping:  If a class is useful only for one other class,  grouping them together",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "improves readability .",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "3.   Code Organization:  Nested classes help  keep the code structured and modular .",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "4.   Access to Private Members:  Inner classes can  access private members of the outer class ,",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "reducing the need for getters/setters.",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Disadvantages:",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "1.   Reduced Readability:  Code can become  complex and harder to understand .",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "2.   Increased Coupling:  The inner class  depends on the outer class , reducing flexibility.",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "3.   Difficult Debugging:  Debugging nested classes can be  tricky due to multiple levels of code",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "dependencies .",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "4.   Memory Overhead:  If used  improperly , nested classes  increase memory consumption .",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "24. Explain Local Inner Classes with an example. How are they different from Member Inner Classes?",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Local Inner Class",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "A  class defined inside a method .",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Can only be  accessed within the method  where it is defined.",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Cannot have  static members .",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Example of Local Inner Class",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "class Outer {",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "void show() {",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "class LocalInner {",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"This is a Local Inner Class\");",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "LocalInner obj = new LocalInner();",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "obj.display();",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Outer outer = new Outer();",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "outer.show();",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Difference Between Local and Member Inner Class",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Feature",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Local Inner Class",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Member Inner Class",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Where",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Declared",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Inside a method",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Inside a class but outside methods",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Access Scope",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Only inside the method Accessible from all methods of the outer class",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Static Members  Not allowed",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Not allowed",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Instantiation",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Created inside the",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "method",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Created inside or outside methods using an outer class",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "object",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "25. What is an Anonymous Inner Class? Write a Java program that demonstrates its use in",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "implementing an interface.",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "An  anonymous inner class  is a  class without a name , used to extend a class or implement an",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "interface  inline .",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Example: Implementing an Interface with Anonymous Inner Class",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "interface Vehicle {",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "void start();",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "public class Main {",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Vehicle car = new Vehicle() {",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "public void start() {",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Car is starting...\");",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "};",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "car.start();",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Car is starting...",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Key Characteristics of Anonymous Inner Class",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "1.   No explicit name .",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "2.   Used when a class is needed only once .",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "3.   Can extend a class or implement an interface .",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "4.   Cannot have constructors .",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "5.   Declared and instantiated in a single step .",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "26. What is the purpose of an abstract method? Provide an example.",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Purpose of an Abstract Method",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "An  abstract method  is a method that  does not have a body  and must be implemented by subclasses.",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "It is used in  abstract classes  to enforce that subclasses  must provide their own implementation  for",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "certain behaviors.",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Declared using the abstract keyword.",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Cannot have a body ({}).",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Must be implemented in a subclass.",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Helps achieve  runtime polymorphism .",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Example: Using an Abstract Method",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "// Abstract class",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "abstract class Animal {",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "abstract void makeSound(); // Abstract method (no body)",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "void sleep() { // Concrete method (has body)",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Sleeping...\");",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "// Subclass providing implementation",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "class Dog extends Animal {",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "void makeSound() {",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Bark! Bark!\");",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "public class Main {",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Animal myDog = new Dog();",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "myDog.makeSound(); // Calls the overridden method",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "myDog.sleep(); // Calls the inherited concrete method",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Bark! Bark!",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Sleeping...",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Key Points:",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "✔  An abstract method  must be overridden  in a subclass.",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "✔  Abstract classes  can have both abstract and concrete methods .",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "✔  Cannot create an  instance  of an abstract class.",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "27. What is the difference between a final variable, final method, and final class?",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Feature",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Final Variable",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Final Method",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Final Class",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Definition",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "A variable whose value",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "cannot be changed  after",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "initialization.",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "A method that  cannot be",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "overridden  in subclasses.",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "A class that  cannot be",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "inherited .",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Keyword",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "final int x = 10;",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "final void display() {}",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "final class MyClass {}",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Usage",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Prevents  reassignment .",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Prevents  method",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "overriding .",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Prevents  inheritance .",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Example",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "final int speed = 100;",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "final void show() {}",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "final class Vehicle {}",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "When to",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Use",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "When a value  must remain",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "constant .",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "When you want to  prevent",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "subclasses from changing",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "behavior .",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "When you want to  prevent",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "modification of a class",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "structure .",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Example of Final Variable",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "class Car {",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "final int speed = 100; // Cannot be modified",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "void displaySpeed() {",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "// speed = 120;  // ERROR! Cannot change final variable",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Speed: \" + speed);",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "Example of Final Method",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "class Vehicle {",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "final void show() { // Cannot be overridden",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Vehicle is running\");",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "class Car extends Vehicle {",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "// void show() { // ERROR! Cannot override final method",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "//     System.out.println(\"Car is running\");",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "// }",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "Example of Final Class",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "final class Bike {",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "void run() {",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Bike is running\");",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "// class SportsBike extends Bike { // ERROR! Cannot inherit final class",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "// }",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "Key Takeaways",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "✔   Final Variable:  Prevents value changes after initialization.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "✔   Final Method:  Prevents method overriding in child classes.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "✔   Final Class:  Prevents inheritance, ensuring the class structure is not altered.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "28. Can a final class be subclassed? Explain with an example.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "No, a final class  cannot  be subclassed in Java. When a class is declared as final, it means that it",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "cannot be extended by any other class, ensuring its implementation remains unchanged.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Example:",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "final class FinalClass {",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "void showMessage() {",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"This is a final class.\");",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "// This will cause a compilation error",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "class SubClass extends FinalClass {  // ERROR: Cannot inherit from final class",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "void display() {",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Trying to extend a final class.\");",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Explanation:",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Attempting to extend FinalClass will result in a compilation error because final prevents subclassing.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "29. Write a Java program demonstrating the use of an abstract class and abstract method.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "An abstract class in Java is a class that cannot be instantiated and may contain abstract methods",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "(methods without a body).",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Example:",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "abstract class Animal {",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "abstract void makeSound();  // Abstract method",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "void sleep() {  // Concrete method",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Sleeping...\");",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "class Dog extends Animal {",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "void makeSound() {",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Dog barks\");",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "public class AbstractDemo {",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "Animal myDog = new Dog();",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "myDog.makeSound(); // Calls Dog's implementation",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "myDog.sleep(); // Calls inherited method from Animal",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "Dog barks",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "Sleeping...",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "30. Explain with examples how the final keyword is used for variables, methods, and classes.",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "The final keyword in Java can be used in three ways:",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "1.   Final Variable : Once assigned, its value cannot be changed.",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "2.   Final Method : Cannot be overridden by subclasses.",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "3.   Final Class : Cannot be extended (inherited).",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "Example:",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "class Example {",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "// Final variable",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "final int MAX_VALUE = 100;",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "// Final method",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "final void display() {",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"This is a final method.\");",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "// Attempting to override a final method will cause a compilation error",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "class SubExample extends Example {",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "// void display() { System.out.println(\"Overriding final method.\"); } // ERROR",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "// Final class cannot be subclassed",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "final class FinalClass {",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "void show() {",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"This is a final class.\");",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "// class SubFinalClass extends FinalClass { } // ERROR: Cannot extend final class",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "public class FinalKeywordDemo {",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Example obj = new Example();",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Final Variable: \" + obj.MAX_VALUE);",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "obj.display();",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Final Variable: 100",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "This is a final method.",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "31. Create an abstract class Shape with an abstract method area(). Implement subclasses Circle and",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Rectangle to calculate and display their respective areas",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Example:",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "abstract class Shape {",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "abstract void area(); // Abstract method",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "class Circle extends Shape {",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "double radius;",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "Circle(double radius) {",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "this.radius = radius;",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "void area() {",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Circle Area: \" + (Math.PI * radius * radius));",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "class Rectangle extends Shape {",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "double length, width;",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "Rectangle(double length, double width) {",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "this.length = length;",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "this.width = width;",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "void area() {",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Rectangle Area: \" + (length * width));",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "public class ShapeDemo {",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Shape circle = new Circle(5);",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Shape rectangle = new Rectangle(4, 6);",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "circle.area();",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "rectangle.area();",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Circle Area: 78.53981633974483",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Rectangle Area: 24.0",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "32. Write a Java program to create an abstract class Vehicle with an abstract method start(), and",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "implement it in subclasses Car and Bike.",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Example:",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "abstract class Vehicle {",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "abstract void start(); // Abstract method",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "class Car extends Vehicle {",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "void start() {",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Car starts with a key.\");",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "class Bike extends Vehicle {",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "void start() {",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "System.out.println(\"Bike starts with a kick.\");",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "public class VehicleDemo {",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "public static void main(String[] args) {",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Vehicle myCar = new Car();",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Vehicle myBike = new Bike();",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "myCar.start();",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "myBike.start();",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "}",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Output:",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Car starts with a key.",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Bike starts with a kick.",
+      "page": 47
+    }
+  ]
+}
